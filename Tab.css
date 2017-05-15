@@ -1,0 +1,27 @@
+ .tabTitle{
+    	width: 600px;
+    }
+    .tabTitle ul{
+    	padding:0;
+    	margin: 0;
+    }
+	.tabTitle li{
+		width: 32.8%;
+		list-style: none;
+		display: inline-block;
+		line-height: 48px;
+		background: #FFF;
+		text-align: center;
+		cursor: pointer;
+	}
+	.active{
+		background: #999 !important;;
+	}
+	.tabContent div{
+		width: 590px;
+		height: 390px;
+		padding: 5px;
+		line-height: 18px;
+		background: #ccc;
+		display: none;
+	}
